@@ -1,0 +1,39 @@
+ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,html,div.paragraph,blockquote,fieldset,input{ margin:0; padding:0; }
+ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input{ margin:0; padding:0; }
+ ul{ list-style:none; }
+ fieldset{ border:0; }
+ a img{ border:0; }
+ .clear{ clear:both; }
+ body { font-family: arial, sans-serif; font-size:12px; height: 100%; margin:0; padding:0; color:white;}
+ a{ color: #8f6f9c; text-decoration: none; }
+ div.paragraph { line-height: 170%; color: #222222; font-size: 14px; padding: 5px 0px 5px 0px; }
+ p { line-height: 170%; color: #222222; font-size: 14px; padding: 5px 0px 5px 0px; }
+ h1 { font-size:30px; color:#272e34; line-height:1.5; padding: 5px 0px 5px 0px; }
+ h2 { font-size:24px; color:#272e34; font-weight: normal; line-height:1.5; padding: 5px 0px 5px 0px; }
+ #wrapper { width:1010px; margin: 0px auto; }
+ .title{ font-family: "Times New Roman", Times, serif; width: 1010px; padding: 15px 0px 15px 0px; color:white; font-size:30px; ) bottom no-repeat; text-align:center;}
+
+ 
+ #navigation{ position: relative; width: 960px; height: 26px; font-weight: bold; z-index: 2; padding: 32px 0px 0px 0px; }
+ #navigation ul{ float: right; }
+ #navigation li{ float: left; height: 26px; z-index: 2; font-size: 14px; padding: 0px 0px 0px 40px; }
+ #navigation li a{ color: #faf9f9; }
+ #navigation li a:hover, #navigation li#active a{ color: #edd2fa; text-decoration: none; }
+ #header{ width: 374px; height: 400px; padding: 0px 21px 0px 0px; float: left; }
+.weebly_header{ width: 374px; height: 536px; background: url(theme/default_header.jpg?188508) no-repeat; }
+ #content{ width: 960px; padding: 0px 25px 0px 25px; }
+ #text{ width: 940px; clear: both; padding: 8px 10px; }
+ #entry{ width: 540px; position: relative; padding: 5px 5px 0px 0px; float: left; }
+ #weebly-menus .weebly-menu-wrap { z-index: 5000; }
+ #weebly-menus .weebly-menu { padding: 0; margin: 0; list-style: none; }
+ #weebly-menus .weebly-menu li { float: left; clear: left; width: 163px; text-align: left; }
+ #weebly-menus .weebly-menu li a { position: relative; display: block; width: 143px; background: #c0acca; border-top: none; border-bottom: 1px solid #886f95; border-right: 1px solid #886f95; border-left: 1px solid #886f95; text-decoration: none; font-size: 14px; font-weight: normal; line-height:1; padding: 8px 6px 8px 12px; color: #3f3f3f; }
+ #weebly-menus .weebly-menu li a:hover { background: #856e90; color: #fff; }
+
+ #footer{ width: 1010px; color: #fff; font-size: 13px; padding: 10px 15px 30px 0px; margin: 5px 0px 0px 0px; }
+ #footer a{ color: #blue; }
+
+div.paragraph ul, div.paragraph ol { padding-left: 25px !important; margin: 5px 0 !important; }
+div.paragraph li { padding-left: 5px !important; margin: 3px 0 0 !important; }
+div.paragraph ul, div.paragraph ul li { list-style: disc outside !important; }
+div.paragraph ol, div.paragraph ol li { list-style: decimal outside !important; }

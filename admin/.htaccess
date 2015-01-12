@@ -1,0 +1,7 @@
+# Begin password protection #
+AuthName "Password Protected"
+Require valid-user
+AuthUserFile "/home/users/web/b283/ipg.citicupidcom/admin/.htpasswd"
+AuthType basic
+# End password protection #
+

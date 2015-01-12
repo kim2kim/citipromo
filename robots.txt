@@ -1,0 +1,4 @@
+Sitemap: http://citipromo.com/sitemap.xml
+
+User-agent: *
+Disallow:

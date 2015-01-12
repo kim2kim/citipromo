@@ -1,0 +1,162 @@
+/* CSS Document */
+
+body {margin:0px; padding:0px; font:11px Tahoma,Arial,Verdana;   color:#fff; background:#000; }
+
+
+/********************Globel work***********************************/
+*{margin:0px; padding:0px;}
+
+body, ol, ul, p, hr {margin:0px; padding:0px;} 
+
+h1, h2, h3, h4, h, h6 {line-height:normal; margin:0px; padding:0px;}
+
+p {line-height:14px; margin:0px; padding:0px 0px 5px 0px; font:normal 14px Arial, Helvetica, sans-serif; color:#fff; }
+
+/****************** Globel  ID & Class **************/
+
+
+
+/*************************Right Globel ID & Class***********************************/
+a {color:#949191; } 
+a:hover {text-decoration:none;}
+
+.comment-title {
+        font-size:8pt;
+        font-weight:bold;
+        padding:5px;
+        margin-top:5px;
+        background-color:#ffe;
+        width:440px;
+        height:auto;
+	color:#000;
+}
+.comment {
+        padding:5px;
+        margin-top:5px;
+        background-color:#eee;
+        width:440px;
+        height:auto;
+	color:#000;
+}
+.comment div {
+        float:both;
+}
+
+#comment-box img {
+        border-style: none;
+}
+#comment-box {
+        float:left;
+        width:430px;
+        padding: 10px;
+        background-color:#eee;
+	color:#000;
+}
+
+
+
+/******************** layout panel *************************/
+#wapper {width:auto; height:auto;}
+
+
+.header-links {
+	margin-top:10px;padding:0px;width:960px;height:60px;background-image:url('http://www.citipromo.com/images/bg_s1.gif'); background-repeat:repeat-x;
+}
+
+.header-links a {
+	padding-left:20px;
+}
+
+.container {margin:0px auto; width:960px; }
+
+.clear {clear:both;}
+.clr {clear:both;}
+
+
+/******************************main header panel*******************************/
+#main_header_panel {clear:both; /*background:url(../images/header_img.jpg) no-repeat; height:565px;*/  }
+
+/****************************** Navigation *******************************/
+#navigation {margin:0px; padding:0px;}
+ ul.navList {margin:0px; padding:35px 0px 40px 92px; display:block;}
+  ul.navList li {margin:0px; padding:0px; list-style:none; float:left; display:block;}
+   ul.navList li a {margin:0px; padding:0px 15px 0px 10px; float:left; display:block; cursor:pointer;}
+      ul.navList li a.bar {margin:0px; padding:0px 10px 0px 5px; float:left; display:block;}
+	  
+/*********************** Logo panel ******************/	  
+ #logo { margin:0px; /*padding:65px 0px 100px 25px;*/ padding:10px;}
+#logo a {float:left;}
+ 
+/*********************** DJ panel ******************/	  
+
+#djMusic {margin:0px;}
+ /*padding:163px 0px 0px 0px;*/
+
+/*********************** Middle panel ******************/	  
+
+#middlePanel {clear:both;}
+ .middleContent {margin:0px auto; padding:0px; width:738px;}
+ 
+/*********************** Left Box ******************/	  
+
+#leftBox {float:left; width:244px; background-color:#090909;}
+ .leftContent {margin:0px; padding:13px 5px 0px 18px;}
+  h1 {margin:0px ; padding:0px 0px 15px 0px; display:block; font-size:18px; font-weight:normal; color:#fff;}
+ 
+ 	.leftBlock {margin:0px; padding:0px 0px 10px 0px;}
+      span.img1 {margin:0px; padding:0px 0px 0px 25px; display:block; float:left;}
+	  span.LeftTxt { margin:0px; padding: 0px 0px 10px 10px; float:right; width:125px; border-bottom: 1px #1f1f1f solid; font-size:10px; color:#949191;}
+	  strong.bold {margin:0px; padding:0px 0px 5px 0px; color:#e3d657; text-transform:uppercase; display:block;}
+	  
+/*********************** right Box ******************/	  
+
+#rightBox {float:right; width:464px; background-color:#090909;}
+ .rightContent {margin:0px; padding:13px 5px 40px 18px;}	  
+	.righttBlock {margin:0px; padding:0px 0px 15px 0px;}
+	  span.img4 {margin:0px; padding:0px 0px 0px 0px; display:block; float:left;}
+	  	  span.greenColor {margin:0px; padding: 0px 0px 0px 0px; float:right; width:210px;  font-size:14px; color:#74886e; display:block; }	
+	  span.rightTxt { margin:0px; padding: 0px 0px 10px 0px; float:right; width:310px;  font-size:14px; color:#666666; display:block; }
+	  strong.bold {margin:0px; padding:0px 0px 5px 0px; color:#e3d657; text-transform:uppercase; display:block;}
+
+ .listBlock {margin:0px; padding:0px; float:left; display:block;}
+  .listBlockRight {margin:0px; padding:0px 20px 0px 0px; float:right; display:block;}
+  ul.blockList {margin:0px; padding:0px;}
+    ul.blockList li {margin:0px; padding:0px; list-style:none; line-height:16px;}
+	  ul.blockList li a{margin:0px; padding:0px 0px 0px 15px; background: url(../images/arrow.gif) no-repeat 0 2px;}
+  
+/***********************fottoer panel*******************/
+
+#main_footer_panel {clear:both;    }
+.footer_center {margin:0px auto; width:700px;}
+.footer_details {margin:0px; padding:30px 0px 30px 0px;  } 
+.footer_details h4 {margin:0px; padding:0px; color:#8f8f8f; float:left; font-size:11px; font-weight:normal;}
+.footer_details h4 strong {color:#d0ab00;}	
+.footer_details p{margin:0px; padding:0px ; text-transform:uppercase; color:#b1b177; text-align:right; font-size:10px; }
+.footer_details p a {color:#b1b177; margin:0px; padding:0px 5px 0px 5px; font-weight:normal;}
+
+
+/* inner pages css start */
+h1.inner{font:33px Myriad Pro, Arial; color:#fff; font-weight:100; margin:0px; padding:25px 0px 10px 0px; background:none}
+.aboutus-img{float:right; border:4px solid #b0a48b;	margin:0px 0px 10px 20px;}
+h5{font:18px Myriad Pro, Arial, Helvetica, sans-serif; color:#ffffff; padding:0px 0px 5px 0px;	border-bottom:1px dotted #ffffff;	margin:0px 0px 10px 0px;}
+h6{font:20px Myriad Pro, Arial, Helvetica, sans-serif; color:#ffffff; padding:0px 0px 5px 0px;	margin:0px 0px 10px 0px;}
+.aboutcolumnzone{padding:20px 0px 16px 0px;}
+.aboutcolumn1{width:48%; float:left; margin:0px 0px 10px 0px;}
+.aboutcolumn2{width:48%; float:right; margin:0px 0px 10px 0px;}
+.abouticon{float:left; margin:0px 20px 0px 0px;}
+.insidereadmore{padding:10px 0px 10px 0px;}
+input.button{color:#ffffff;	background:#414141;	font:bold 11px Arial, Helvetica, sans-serif; text-decoration:none; padding:10px 10px; margin:0px 5px 5px 0;	border:1px solid #000000;}
+input.button:hover{cursor:pointer; color:#cccccc;}
+.project-img{float:right; margin-left:20px;	border: 6px solid #fff;}
+.whiteheading{font:30px Myriad Pro, Arial; color:#ffffff; font-weight:100;	padding:0px; margin:25px 0px 20px 0px;}
+.ourprojectrow{margin-bottom:20px;	border-bottom:1px dotted #fff; padding-bottom:10px; width: 95%;}
+.servicecolumnzone{padding:20px 0px 16px 0px;}
+.servicecolumn1{width:48%; float:left; margin:0px 0px 10px 0px;}
+.servicecolumn2{width:48%; float:right;	margin:0px 0px 10px 0px;}
+.blog-posted-row{padding:3px;}
+
+.rightContent-inner {margin:0px; padding:13px 5px 20px 18px;}
+.rightContent-inner h1{
+	margin:0px; padding:0px 0px 5px 0px;
+	}
+/* inner pages css ends */
